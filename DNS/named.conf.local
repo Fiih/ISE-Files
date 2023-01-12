@@ -1,0 +1,16 @@
+zone "ppa.int" {
+	type master;
+		file "/etc/bind/db.ppa.int";
+};
+zone "ppa.dmz" {
+	type master;
+		file "/etc/bind/db.ppa.dmz";
+};
+zone "110.168.192.in-addr.arpa" {
+	type master;
+		file "/etc/bind/db.110.168.192";
+};
+zone "120.168.192.in-addr.arpa" {
+	type master;
+		file "/etc/bind/db.120.168.192";
+};
