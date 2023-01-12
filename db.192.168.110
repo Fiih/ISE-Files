@@ -1,0 +1,13 @@
+$TTL	604800
+@	IN	SOA	nsppf.ppa.int. root.ppa.int. (
+			2022091601	;Serial
+			604800		;Refresh
+			86400		;Retry
+			2419200		;Expire
+			604800 )	;Negative Cache TTL
+;
+@		IN	NS	nsppf.ppa.int.
+61		IN	PTR	www.ppa.int.
+61		IN	PTR	nsppf.ppa.int.
+91		IN	PTR	vmLS1.ppa.int.
+
