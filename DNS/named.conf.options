@@ -1,8 +1,0 @@
-options {
-	directory "/var/cache/bind";
-	forwarders {192.168.110.1; 8.8.8.8;};
-	allow-query {192.168.0.0/16;};
-	dnssec-validation no;
-	#dnssec-enable
-	auth-nxdomain no;
-};
